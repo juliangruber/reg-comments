@@ -1,0 +1,30 @@
+{
+  "name": "reg-comments",
+  "description": "Allow comments in JavaScript regular expressions",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/reg-comments.git"
+  },
+  "homepage": "https://github.com/juliangruber/reg-comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.1.1"
+  },
+  "keywords": [
+    "regexp",
+    "regular",
+    "expression",
+    "comment"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
