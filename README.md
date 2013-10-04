@@ -3,6 +3,12 @@
 
 Allow comments in JavaScript regular expressions.
 
+[![build status](https://secure.travis-ci.org/juliangruber/reg-comments.png)](http://travis-ci.org/juliangruber/reg-comments)
+
+[![testling badge](https://ci.testling.com/juliangruber/reg-comments.png)](https://ci.testling.com/juliangruber/reg-comments)
+
+## Motivation
+
 Instead of this unreadable mess of chars:
 
 ```
