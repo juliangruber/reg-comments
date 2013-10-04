@@ -1,4 +1,3 @@
-
 # reg-comments
 
 Allow comments in JavaScript regular expressions.
@@ -71,7 +70,7 @@ RegExp comments.
 Since it's a string, don't forget double escaping:
 
 ```js
-/\d/ === new RegExp('\\d');
+/\d/.toString() == new RegExp('\\d').toString();
 ```
 
 ### strip.reg(expression[, modifiers])
