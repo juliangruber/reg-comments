@@ -11,14 +11,14 @@ Allow comments in JavaScript regular expressions.
 
 Instead of this unreadable mess of chars:
 
-```
-(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])
+```js
+/(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])/
 ```
 
 add some comments to make it more readable:
 
-```
-(?#year)(19|20)\d\d[- /.](?#month)(0[1-9]|1[012])[- /.](?#day)(0[1-9]|[12][0-9]|3[01])
+```js
+/(?#year)(19|20)\d\d[- /.](?#month)(0[1-9]|1[012])[- /.](?#day)(0[1-9]|[12][0-9]|3[01])/
 ```
 
 Unfortunately JavaScript doesn't yet support comments in regular expressions,
@@ -57,7 +57,7 @@ the closing paren, then `)`.
 
 Or, in regular expression form:
 
-```
+```js
 /\(\?\#[^\)]*\)/
 ```
 
