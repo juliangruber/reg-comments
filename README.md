@@ -51,7 +51,7 @@ mathces: true
 
 ## Syntax
 
-A valid comment starts with `(?#`, followed 0-x characters that aren't
+A valid comment starts with `(?#`, followed by 0-x characters that aren't
 the closing paren, then `)`.
 
 Or, in regular expression form:
